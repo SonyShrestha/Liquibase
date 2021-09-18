@@ -1,0 +1,32 @@
+Reference Database: root@localhost @ jdbc:mysql://localhost:3306/db?autoReconnect=true&amp;useSSL=false (Default Schema: db)
+Comparison Database: root@localhost @ jdbc:mysql://localhost:3306/expenses_raw?autoReconnect=true&amp;useSSL=false (Default Schema: expenses_raw)
+Compared Schemas: db -> expenses_raw
+Product Name: EQUAL
+Product Version: EQUAL
+Missing Catalog(s): NONE
+Unexpected Catalog(s): NONE
+Changed Catalog(s): NONE
+Missing Column(s): NONE
+Unexpected Column(s): NONE
+Changed Column(s): NONE
+Missing Foreign Key(s): NONE
+Unexpected Foreign Key(s): NONE
+Changed Foreign Key(s): NONE
+Missing Index(s): NONE
+Unexpected Index(s): NONE
+Changed Index(s): NONE
+Missing Primary Key(s): NONE
+Unexpected Primary Key(s): NONE
+Changed Primary Key(s): NONE
+Missing Sequence(s): NONE
+Unexpected Sequence(s): NONE
+Changed Sequence(s): NONE
+Missing Table(s): NONE
+Unexpected Table(s): NONE
+Changed Table(s): NONE
+Missing Unique Constraint(s): NONE
+Unexpected Unique Constraint(s): NONE
+Changed Unique Constraint(s): NONE
+Missing View(s): NONE
+Unexpected View(s): NONE
+Changed View(s): NONE

@@ -1,0 +1,97 @@
+Reference Database: root@localhost @ jdbc:mysql://localhost:3306/db?autoReconnect=true&amp;useSSL=false (Default Schema: db)
+Comparison Database: root@localhost @ jdbc:mysql://localhost:3306/qa?autoReconnect=true&amp;useSSL=false (Default Schema: qa)
+Compared Schemas: db -> qa
+Product Name: EQUAL
+Product Version: EQUAL
+Missing Catalog(s): NONE
+Unexpected Catalog(s): NONE
+Changed Catalog(s): NONE
+Missing Column(s): 
+     db.expenses_transaction_details.amount
+     db.expenses_transaction_details_bkp.amount
+     db.expenses_transaction_details.category_id
+     db.expenses_transaction_details_bkp.category_id
+     db.expenses_transaction_details.id
+     db.expenses_transaction_details_bkp.id
+     db.expenses_transaction_details.quantity
+     db.expenses_transaction_details_bkp.quantity
+     db.expenses_transaction_details.remarks
+     db.expenses_transaction_details_bkp.remarks
+     db.expenses_transaction_details.subcategory_id
+     db.expenses_transaction_details_bkp.subcategory_id
+     db.expenses_transaction_details.tran_date
+     db.expenses_transaction_details_bkp.tran_date
+     db.expenses_transaction_details.unit_price
+     db.expenses_transaction_details_bkp.unit_price
+Unexpected Column(s): 
+     qa.databasechangelog.AUTHOR
+     qa.databasechangelog.COMMENTS
+     qa.databasechangelog.CONTEXTS
+     qa.databasechangelog.DATEEXECUTED
+     qa.databasechangelog.DEPLOYMENT_ID
+     qa.databasechangelog.DESCRIPTION
+     qa.databasechangelog.EXECTYPE
+     qa.databasechangelog.FILENAME
+     qa.databasechangelog.ID
+     qa.databasechangeloglock.ID
+     qa.databasechangelog.LABELS
+     qa.databasechangelog.LIQUIBASE
+     qa.databasechangeloglock.LOCKED
+     qa.databasechangeloglock.LOCKEDBY
+     qa.databasechangeloglock.LOCKGRANTED
+     qa.databasechangelog.MD5SUM
+     qa.databasechangelog.ORDEREXECUTED
+     qa.databasechangelog.TAG
+     qa.t13.id
+     qa.t14.id
+     qa.t15.id
+     qa.t16.id
+     qa.t13.name
+     qa.t14.name
+     qa.t15.name
+     qa.t16.name
+     qa.t14.test
+     qa.t15.test
+     qa.t16.test
+Changed Column(s): NONE
+Missing Foreign Key(s): NONE
+Unexpected Foreign Key(s): NONE
+Changed Foreign Key(s): NONE
+Missing Index(s): 
+     PRIMARY UNIQUE  ON db.expenses_transaction_details(id)
+Unexpected Index(s): 
+     PRIMARY UNIQUE  ON qa.databasechangeloglock(ID)
+     PRIMARY UNIQUE  ON qa.t13(id)
+     PRIMARY UNIQUE  ON qa.t14(id)
+     PRIMARY UNIQUE  ON qa.t15(id)
+     PRIMARY UNIQUE  ON qa.t16(id)
+Changed Index(s): NONE
+Missing Primary Key(s): 
+     PRIMARY on db.expenses_transaction_details(id)
+Unexpected Primary Key(s): 
+     PRIMARY on qa.databasechangeloglock(ID)
+     PRIMARY on qa.t13(id)
+     PRIMARY on qa.t14(id)
+     PRIMARY on qa.t15(id)
+     PRIMARY on qa.t16(id)
+Changed Primary Key(s): NONE
+Missing Sequence(s): NONE
+Unexpected Sequence(s): NONE
+Changed Sequence(s): NONE
+Missing Table(s): 
+     expenses_transaction_details
+     expenses_transaction_details_bkp
+Unexpected Table(s): 
+     databasechangelog
+     databasechangeloglock
+     t13
+     t14
+     t15
+     t16
+Changed Table(s): NONE
+Missing Unique Constraint(s): NONE
+Unexpected Unique Constraint(s): NONE
+Changed Unique Constraint(s): NONE
+Missing View(s): NONE
+Unexpected View(s): NONE
+Changed View(s): NONE

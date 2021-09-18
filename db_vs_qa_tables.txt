@@ -1,0 +1,16 @@
+Reference Database: root@localhost @ jdbc:mysql://localhost:3306/db?autoReconnect=true&amp;useSSL=false (Default Schema: db)
+Comparison Database: root@localhost @ jdbc:mysql://localhost:3306/qa?autoReconnect=true&amp;useSSL=false (Default Schema: qa)
+Compared Schemas: db -> qa
+Product Name: EQUAL
+Product Version: EQUAL
+Missing Table(s): 
+     expenses_transaction_details
+     expenses_transaction_details_bkp
+Unexpected Table(s): 
+     databasechangelog
+     databasechangeloglock
+     t13
+     t14
+     t15
+     t16
+Changed Table(s): NONE
